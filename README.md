@@ -1,8 +1,24 @@
-# Invoice demo
+# GST Invoice Calculator Demo
 
-This small Node.js project uses `@ved_0091/rupee-format` to calculate and display an Indian GST invoice.
+This small Node.js project calculates and displays an Indian GST invoice using the published [`@ved_0091/rupee-format`](https://www.npmjs.com/package/@ved_0091/rupee-format) npm package.
 
-## Run locally
+## Package used
+
+This project installs the public npm package, not a local folder copy:
+
+```json
+"@ved_0091/rupee-format": "^0.1.0"
+```
+
+The code imports it directly:
+
+```js
+import { addGST, formatINR, formatPercentage, numberToIndianWords, splitGST } from '@ved_0091/rupee-format';
+```
+
+The package provides INR formatting, GST calculation, CGST/SGST splitting, percentage formatting, and Indian number words.
+
+## Run the project
 
 From this folder, run:
 
@@ -11,4 +27,4 @@ npm install
 npm start
 ```
 
-The project uses the public `@ved_0091/rupee-format` package from npm. Install dependencies with `npm install` before running the demo.
+`npm install` downloads `@ved_0091/rupee-format` from npm. The output shows a GST invoice with Indian currency formatting and amount-in-words support.
