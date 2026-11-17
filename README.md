@@ -11,4 +11,4 @@ npm install
 npm start
 ```
 
-The dependency currently uses `file:..`, which means it installs the package from the folder above. After `@ved_0091/rupee-format` is published, replace that dependency value in `package.json` with `"^0.1.0"` and run `npm install` again.
+The project uses the public `@ved_0091/rupee-format` package from npm. Install dependencies with `npm install` before running the demo.

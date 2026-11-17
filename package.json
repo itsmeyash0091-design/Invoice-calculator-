@@ -8,6 +8,6 @@
     "start": "node app.mjs"
   },
   "dependencies": {
-    "@ved_0091/rupee-format": "file:.."
+    "@ved_0091/rupee-format": "^0.1.0"
   }
 }
