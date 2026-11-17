@@ -1,0 +1,13 @@
+{
+  "name": "rupee-format-invoice-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A small project demonstrating @ved_0091/rupee-format.",
+  "scripts": {
+    "start": "node app.mjs"
+  },
+  "dependencies": {
+    "@ved_0091/rupee-format": "file:.."
+  }
+}
